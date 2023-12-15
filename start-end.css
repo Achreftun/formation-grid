@@ -10,8 +10,7 @@
 }
 .component2 {
   background-color: teal;
-  grid-column: 3/ 4;
-  grid-row: 1/ 3;
+  grid-area: 1/ 3 / 3/ 4;;
 }
 .component3 {
   background-color: skyblue;
