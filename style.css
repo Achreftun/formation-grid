@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.component1 {
+  background-color: tomato;
+  grid-area: rouge;
+}
+.component2 {
+  background-color: teal;
+  grid-area: vert;
+}
+.component3 {
+  background-color: skyblue;
+  grid-area: bleu;
+}
+.component4 {
+  background-color: gold;
+  grid-area: jaune;
+}
+#container {
+  background-color: gainsboro;
+  height: 100vh;
+  display: grid;
+  grid-template-areas:
+    "rouge rouge rouge rouge"
+    "vert bleu bleu bleu"
+    "vert bleu bleu bleu"
+    "vert jaune jaune jaune";
+}
